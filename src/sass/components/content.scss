@@ -43,6 +43,10 @@
     transition: all 1s ease;
     transform: translate(0);
 
+    @include respond(tab-port) {
+        pointer-events: none;
+    }
+
     &--content {
         transform: translateX(-70%);
 
