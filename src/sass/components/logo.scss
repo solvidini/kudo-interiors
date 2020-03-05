@@ -1,0 +1,21 @@
+.main-logo-container {
+    overflow: hidden;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        border-radius: none;
+    }
+}
+
+.main-logo {
+    height: 100%;
+    // width: 100%;
+    backface-visibility: hidden;
+}

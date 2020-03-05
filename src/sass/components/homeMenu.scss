@@ -1,0 +1,30 @@
+@import '../variables';
+@import '../mixins';
+
+.home-menu {
+    &__nav {
+        &-list {
+            list-style: none;
+        }
+
+        &-item {
+            transition: all .2s ease;
+
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            a {
+                color: $color-white;
+                text-decoration: none;
+                font-size: 4rem;
+            }
+
+            &--active {}
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.container {}
+
+.content {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: purple;
+
+
+    transition: all 1s ease;
+    transform: translateX(100%);
+
+    &--visible {
+        transform: translate(0);
+    }
+}
+
+.main-menu {
+    width: 100%;
+    transition: all 1s ease;
+    transform: translate(0);
+
+    &--content {
+        transform: translateX(-70%);
+    }
+}
