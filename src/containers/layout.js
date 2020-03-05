@@ -60,7 +60,14 @@ const Layout = props => {
 							)}
 						/>
 					</div>
-					<div className={contentIsVisible ? 'content content--visible' : 'content'}>{props.children}</div>
+					<div className={contentIsVisible ? 'content content--visible' : 'content'}>
+						<div className="content__back">
+							<NavLink to="/" exact onClick={closeContentHandler}>
+								BACK
+							</NavLink>
+						</div>
+						{props.children}
+					</div>
 				</main>
 			</div>
 		</>

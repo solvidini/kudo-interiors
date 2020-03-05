@@ -7,7 +7,7 @@ const HomeMenu = props => (
 	<div className="home-menu">
 		<nav className="home-menu__nav">
 			<ul className="home-menu__nav-list">
-				<NavigationItem to="/" clicked={props.closeContent} title="Home" />
+				<NavigationItem to="/" clicked={props.closeContent} title="Home" home={true} />
 				<NavigationItem to="/about-me" clicked={props.openContent} title="About&nbsp;Me" />
 				<NavigationItem to="/offer" clicked={props.openContent} title="Offer" />
 				<NavigationItem to="/realisations" clicked={props.openContent} title="Realisations" />

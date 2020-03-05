@@ -1,3 +1,6 @@
+@import '../variables';
+@import '../mixins';
+
 .container {}
 
 .content {
@@ -7,14 +10,31 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: purple;
+    background-color: $color-background;
+    border-left: 2px solid $color-white;
 
 
     transition: all 1s ease;
     transform: translateX(100%);
 
+    @include respond(tab-port) {
+        width: 101%;
+    }
+
     &--visible {
         transform: translate(0);
+    }
+
+    &__back {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 3rem;
+        }
     }
 }
 
@@ -25,5 +45,9 @@
 
     &--content {
         transform: translateX(-70%);
+
+        @include respond(tab-land) {
+            transform: translateX(-75%);
+        }
     }
 }
