@@ -9,6 +9,12 @@
   box-sizing: inherit;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 html {
   font-size: 62.5%;
   font-weight: 400;
@@ -33,9 +39,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  overflow-x: hidden;
+  position: relative;
+
   color: $color-white;
   background-color: $color-dark;
+  background-image: linear-gradient(to right bottom,
+      rgba($color-dark, .1),
+      rgba($color-background, .1)),
+    url(../../assets/images/dark-wood.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 ::selection {

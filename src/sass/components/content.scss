@@ -7,15 +7,19 @@
     width: 70%;
     height: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     right: 0;
     background-color: $color-background;
     border-left: 2px solid $color-white;
 
 
-    transition: all 1s ease;
+    transition: all .8s ease;
     transform: translateX(100%);
+
+    @include respond(tab-land) {
+        width: 75%;
+    }
 
     @include respond(tab-port) {
         width: 101%;
@@ -40,18 +44,18 @@
 
 .main-menu {
     width: 100%;
-    transition: all 1s ease;
+    transition: all .8s ease;
     transform: translate(0);
-
-    @include respond(tab-port) {
-        pointer-events: none;
-    }
 
     &--content {
         transform: translateX(-70%);
 
         @include respond(tab-land) {
             transform: translateX(-75%);
+        }
+
+        @include respond(tab-port) {
+            pointer-events: none;
         }
     }
 }

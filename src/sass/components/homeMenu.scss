@@ -13,7 +13,8 @@
             letter-spacing: .1rem;
 
             @include respond(phone) {
-                line-height: 1;
+                margin-top: 2rem;
+                line-height: .8;
             }
 
             &:not(:last-child) {

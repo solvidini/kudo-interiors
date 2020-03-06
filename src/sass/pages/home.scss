@@ -4,20 +4,25 @@
 .home {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right bottom,
-            rgba($color-dark, .1),
-            rgba($color-background, .1)),
-            url(../../assets/images/dark-wood.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: linear-gradient(to right bottom,
+    //         rgba($color-dark, .1),
+    //         rgba($color-background, .1)),
+    //         url(../../assets/images/dark-wood.jpg);
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
+    position: relative;
+    
     transition: all 1s ease;
+
+    @include respond(phone) {
+        height: 90vh;
+    }
 
     &--right {
         transform: translateX(30%);
