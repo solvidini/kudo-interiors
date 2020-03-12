@@ -1,9 +1,13 @@
 {
-	"name": "kudo-interiors",
-	"version": "0.4.0",
+	"name": "kudo-wnetrza",
+	"version": "0.4.5",
 	"author": "Samuel Kędziora <samukedo@gmail.com>",
+	"description": "A simple starter to get up and developing quickly with Gatsby",
 	"private": true,
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.27",
+		"@fortawesome/free-solid-svg-icons": "^5.12.1",
+		"@fortawesome/react-fontawesome": "^0.1.9",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.4.1",
 		"@testing-library/user-event": "^7.2.1",

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TrustedMe = () => (
-	<section className="about-me">
+	<section className="content">
 		<h1>Trusted Me</h1>
 		<p style={{ padding: '3rem' }}>
 			Id aliqua id nisi ipsum officia sunt aute adipisicing ut ipsum labore officia nulla. Irure ullamco ullamco

@@ -1,5 +1,5 @@
 ## General info
-This is another website project I made
+This is my another website project. New Idea, Different layout.
 	
 ## Technologies
 Main technologies I used to create this website:
