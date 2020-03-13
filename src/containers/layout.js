@@ -1,16 +1,7 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React, { useState, useEffect } from 'react';
 import { NavLink, Route } from 'react-router-dom';
 
-// import Header from "../components/header"
-// import Footer from "../components/footer"
-// import SideDrawer from "../components/sideDrawer"
+import Footer from "../components/footer"
 import '../sass/main.scss';
 import Home from '../pages/home';
 import '../utils/fontawesome';
@@ -50,6 +41,7 @@ const Layout = props => {
 				</div>
 				{props.children}
 			</div>
+			<Footer />
 		</main>
 	);
 };
