@@ -8,18 +8,16 @@
 		"contact": "Contact",
 		"trustedMe": "Trusted\u00A0me"
 	},
-	"home": {
-	},
-	"about": {
-	},
-	"offer": {
-	},
-	"realisations": {
-	},
+	"home": {},
+	"about": {},
+	"offer": {},
+	"realisations": {},
 	"contact": {
+		"title": "Contact",
+		"call": "Call me",
+		"write": "Write me an email"
 	},
-	"trustedMe": {
-	},
+	"trustedMe": {},
 	"footer": {
 		"allRights": "All\u00A0rights\u00A0reserved.",
 		"creator": "Website\u00A0created\u00A0by"

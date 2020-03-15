@@ -17,7 +17,7 @@ const Footer = props => {
 					href="http://samuelk.pl/"
 					title="Samuel Kędziora - Web Developer"
 				>
-					{context.dictionary.footer.creator} <b>Samuelk&nbsp;Kędziora</b>
+					{context.dictionary.footer.creator} <b>Samuel&nbsp;Kędziora</b>
 				</a>
 			</div>
 		</footer>
