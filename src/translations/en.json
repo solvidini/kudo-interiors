@@ -1,0 +1,27 @@
+{
+	"language": "English",
+	"nav": {
+		"home": "Home",
+		"about": "About\u00A0me",
+		"offer": "Offer",
+		"realisations": "Realisations",
+		"contact": "Contact",
+		"trustedMe": "Trusted\u00A0me"
+	},
+	"home": {
+	},
+	"about": {
+	},
+	"offer": {
+	},
+	"realisations": {
+	},
+	"contact": {
+	},
+	"trustedMe": {
+	},
+	"footer": {
+		"allRights": "All\u00A0rights\u00A0reserved.",
+		"creator": "Website\u00A0created\u00A0by"
+	}
+}

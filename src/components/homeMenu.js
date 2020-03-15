@@ -1,21 +1,24 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
 
 import NavigationItem from '../components/navigationItem';
+import { LanguageContext } from '../context';
 
-const HomeMenu = props => (
-	<div className="home-menu">
-		<nav className="home-menu__nav">
-			<ul className="home-menu__nav-list">
-				<NavigationItem to="/" clicked={props.closeContent} title="Home" home={true} />
-				<NavigationItem to="/about-me" clicked={props.openContent} title="About&nbsp;Me" />
-				<NavigationItem to="/offer" clicked={props.openContent} title="Offer" />
-				<NavigationItem to="/realisations" clicked={props.openContent} title="Realisations" />
-				<NavigationItem to="/contact" clicked={props.openContent} title="Contact" />
-				<NavigationItem to="/trusted-me" clicked={props.openContent} title="Trusted&nbsp;Me" />
-			</ul>
-		</nav>
-	</div>
-);
+const HomeMenu = props => {
+	const context = useContext(LanguageContext);
+	return (
+		<div className="home-menu">
+			<nav className="home-menu__nav">
+				<ul className="home-menu__nav-list">
+					<NavigationItem to="/" clicked={props.closeContent} title={context.dictionary.nav.home} home={true} />
+					<NavigationItem to="/about-me" clicked={props.openContent} title={context.dictionary.nav.about} />
+					<NavigationItem to="/offer" clicked={props.openContent} title={context.dictionary.nav.offer} />
+					<NavigationItem to="/realisations" clicked={props.openContent} title={context.dictionary.nav.realisations} />
+					<NavigationItem to="/contact" clicked={props.openContent} title={context.dictionary.nav.contact} />
+					<NavigationItem to="/trusted-me" clicked={props.openContent} title={context.dictionary.nav.trustedMe} />
+				</ul>
+			</nav>
+		</div>
+	);
+};
 
 export default HomeMenu;

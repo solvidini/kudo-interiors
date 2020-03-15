@@ -1,0 +1,60 @@
+@import '../mixins';
+@import '../variables';
+
+.language-pack {
+    position: fixed;
+    z-index: 200;
+    margin: 3rem 5rem;
+    user-select: none;
+    outline: transparent;
+    -webkit-tap-highlight-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+
+    @include respond(phone) {
+        margin: 3rem 4rem;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__icon {
+        transition: all .4s ease;
+        font-size: 1.8rem;
+        position: absolute;
+        left: -2rem;
+    }
+
+    &__select {
+        background-color: transparent;
+        display: block;
+        outline: none;
+        color: $color-white;
+        font-size: 1.6rem;
+        width: 10rem;
+        padding: .5rem;
+        cursor: pointer;
+
+        text-align: left;
+        text-transform: uppercase;
+        border: 2px solid transparent;
+
+        @include respond(tab-land) {
+            font-size: 2rem;
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
+        }
+
+        &:active,
+        &:focus,
+        &--active {
+            font-weight: 600;
+        }
+    }
+}

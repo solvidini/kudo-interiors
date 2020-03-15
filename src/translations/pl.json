@@ -1,0 +1,27 @@
+{
+	"language": "English",
+	"nav": {
+		"home": "Home",
+		"about": "O\u00A0mnie",
+		"offer": "Oferta",
+		"realisations": "Realizacje",
+		"contact": "Kontakt",
+		"trustedMe": "Zaufali\u00A0mi"
+	},
+	"home": {
+	},
+	"about": {
+	},
+	"offer": {
+	},
+	"realisations": {
+	},
+	"contact": {
+	},
+	"trustedMe": {
+	},
+	"footer": {
+		"allRights": "Wszelkie\u00A0prawa zastrzeżone.",
+		"creator": "Strona\u00A0stworzona\u00A0przez"
+	}
+}

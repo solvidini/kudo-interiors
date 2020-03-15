@@ -6,6 +6,7 @@ import '../sass/main.scss';
 import Home from '../pages/home';
 import '../utils/fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LanguagePack from '../components/languagePack';
 
 const Layout = props => {
 	const [contentIsVisible, setContentIsVisible] = useState(false);
@@ -21,6 +22,7 @@ const Layout = props => {
 	return (
 		<main>
 			<div className={contentIsVisible ? 'main-menu main-menu--content' : 'main-menu'}>
+				<LanguagePack />
 				<Route
 					path="/"
 					render={props => (
