@@ -17,7 +17,10 @@
 		"call": "Call me",
 		"write": "Write me an email"
 	},
-	"trustedMe": {},
+	"trustedMe": {
+		"title": "Trusted me",
+		"subtitle": "Those who trusted me"
+	},
 	"footer": {
 		"allRights": "All\u00A0rights\u00A0reserved.",
 		"creator": "Website\u00A0created\u00A0by"

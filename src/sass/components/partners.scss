@@ -1,0 +1,24 @@
+@import '../variables';
+@import '../mixins';
+
+.partners {
+    display: flex;
+    margin: 0 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include respond(phone) {
+        // margin: 0;
+    }
+
+    &__item {
+        height: 11rem;
+        margin: 3rem;
+
+        &-link {}
+
+        &-image {
+            height: 100%;
+        }
+    }
+}

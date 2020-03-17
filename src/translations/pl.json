@@ -17,7 +17,10 @@
 		"call": "Zadzwoń",
 		"write": "Napisz mi email"
 	},
-	"trustedMe": {},
+	"trustedMe": {
+		"title": "Zaufali mi",
+		"subtitle": "Ci, którzy mi zaufali"
+	},
 	"footer": {
 		"allRights": "Wszelkie\u00A0prawa zastrzeżone.",
 		"creator": "Strona\u00A0stworzona\u00A0przez"
