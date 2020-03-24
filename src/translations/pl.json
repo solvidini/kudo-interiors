@@ -11,7 +11,12 @@
 	"home": {},
 	"about": {},
 	"offer": {},
-	"realisations": {},
+	"realisations": {
+		"title": "Realizacje"
+	},
+	"gallery": {
+		"photo": "Zdjęcie z realizacji"
+	},
 	"contact": {
 		"title": "Kontakt",
 		"call": "Zadzwoń",

@@ -11,7 +11,12 @@
 	"home": {},
 	"about": {},
 	"offer": {},
-	"realisations": {},
+	"realisations": {
+		"title": "Realisations"
+	},
+	"gallery": {
+		"photo": "Photo from realisation"
+	},
 	"contact": {
 		"title": "Contact",
 		"call": "Call me",

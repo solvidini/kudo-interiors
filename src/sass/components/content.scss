@@ -29,6 +29,7 @@
 
     &__back {
         position: absolute;
+        z-index: 30;
         top: 1%;
         left: 1%;
         transition: all .2s ease;
@@ -38,7 +39,8 @@
             left: 1.5%;
         }
 
-        a {
+        &-button {
+            cursor: pointer;
             color: white;
             text-decoration: none;
             font-size: 4.5rem;

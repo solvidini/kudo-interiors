@@ -14,11 +14,19 @@
     &__item {
         height: 11rem;
         margin: 3rem;
+        transition: all .1s ease;
 
         &-link {}
 
         &-image {
             height: 100%;
         }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+         &:active {
+             transform: scale(.95);
+         }
     }
 }
