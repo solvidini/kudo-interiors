@@ -51,6 +51,10 @@
         &:hover &-image {
             filter: brightness(110%);
             transform: scale(1.05);
+
+            @include respond(phone) {
+                transform: scale(1);
+            }
         }
     }
 }

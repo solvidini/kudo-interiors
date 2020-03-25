@@ -34,16 +34,16 @@ const TrustedMe = lazy(() => {
 });
 
 const realisationsArray = [
-	realisation_5,
-	realisation_8,
+	realisation_9,
+	realisation_6,
 	realisation_10,
 	realisation_2,
-	realisation_6,
-	realisation_9,
 	realisation_3,
 	realisation_4,
-	realisation_7,
+	realisation_5,
 	realisation_1,
+	realisation_7,
+	realisation_8,
 ];
 
 console.log("Thanks for image lightbox to: 'https://www.npmjs.com/package/react-image-lightbox'");

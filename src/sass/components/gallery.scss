@@ -88,9 +88,11 @@
 
         &:hover &-curtain {
             background-color: rgba($color-background, .8);
+
             &::before {
                 color: white;
             }
+
         }
 
         &-image {
@@ -104,6 +106,10 @@
         &:hover &-image {
             filter: brightness(115%);
             transform: scale(1.05);
+
+            @include respond(phone) {
+                transform: scale(1);
+            }
         }
 
         &:hover {

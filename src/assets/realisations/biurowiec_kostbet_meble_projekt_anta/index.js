@@ -44,7 +44,7 @@ import p21_tn from "./p21_tn.jpg";
 export default {
   name: "Biurowiec Kost-Bet Meble Projekt\xa0Anta",
 	enName: 'An office building Kost-Bet Meble Project\xa0Anta',
-  exhibit: p18_tn,
+  exhibit: p8_tn,
   images: [
     {
       src: p1,
