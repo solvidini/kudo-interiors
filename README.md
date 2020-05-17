@@ -1,12 +1,15 @@
-## General info
-This is my another website project. New Idea, Different layout.
+# Kudo Interiors
+This is my another website project. New Idea, Different layout for - Kudo Wnętrza company.
 	
 ## Technologies
 Main technologies I used to create this website:
 * React
-* SASS
+* Sass
 
 &other
 	
 ## Live
 IN PROGRESS
+
+## Author
+Samuel Kędziora
