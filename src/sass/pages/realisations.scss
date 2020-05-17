@@ -6,8 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    padding: .4%;
+    justify-content: left;
+    padding: .1%;
 
     @include respond(phone) {
         flex-direction: column;
@@ -16,14 +16,13 @@
     &__item {
         position: relative;
         overflow: hidden;
-        width: 49.2%;
+        width: 49.8%;
         height: 25rem;
-        margin: .4%;
-        border-radius: 1rem;
+        margin: .1%;
 
         @include respond(phone) {
-            width: 98%;
-            margin: .5% 1%;
+            width: 99.8%;
+            margin: .1%;
         }
 
         &-name {
@@ -35,7 +34,7 @@
             color: white;
             text-decoration: none;
             font-size: 1.8rem;
-            border-top-right-radius: 1rem;
+            border-top-right-radius: .5rem;
         }
         &-image {
             width: 100%;

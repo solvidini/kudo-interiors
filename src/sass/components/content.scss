@@ -23,6 +23,10 @@
         width: 101%;
     }
 
+    @include respond(phone) {
+        transition: all .4s ease;
+    }
+
     &--visible {
         transform: translate(0);
     }
@@ -46,7 +50,7 @@
             font-size: 4.5rem;
             padding: 0 1rem;
             border: 1px solid white;
-            border-radius: 1rem;
+            border-radius: .5rem;
             background-color: $color-background;
         }
     }
@@ -62,6 +66,10 @@
     width: 100%;
     transition: all .8s ease;
     transform: translate(0);
+
+    @include respond(phone) {
+        transition: all .4s ease;
+    }
 
     &--content {
         transform: translateX(-75%);

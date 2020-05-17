@@ -11,6 +11,9 @@
 	"home": {},
 	"about": {},
 	"offer": {},
+	"layout": {
+		"back": "Back"
+	},
 	"realisations": {
 		"title": "Realisations"
 	},

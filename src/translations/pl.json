@@ -11,6 +11,9 @@
 	"home": {},
 	"about": {},
 	"offer": {},
+	"layout": {
+		"back": "Cofnij"
+	},
 	"realisations": {
 		"title": "Realizacje"
 	},
